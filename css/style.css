@@ -1,3 +1,68 @@
-body{
-    background-color: violet;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0;
+    min-width: 100%;
+    height: 296px;
+}
+.container{
+    width: 1200px;
+    height: 296px;
+    margin: 30px auto;
+}
+.areafirst{
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(to left,#008BF0, #D943C9);
+    float: left;
+    margin-right: 30px;
+}
+.areasecond{
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(to left,#008BF0, #D943C9);
+    float: left;
+    
+    
+}
+.textarea{
+    width: 249px;
+    height: 147px;
+    margin-top: 75px;
+    margin-left: 35px;
+    
+}
+.text{
+    font-family: 'Hind Siliguri', sans-serif;
+    opacity: 0.6;
+    color: #F4F9FC;
+    font-weight: 500;
+    text-transform:uppercase;
+    font-size: 16px;
+    line-height: 27px;
+}
+.texttwo{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #F4F9FC;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    text-transform:uppercase;
+    font-size: 31px;
+    line-height: 40px;
+}
+.texttri{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #F4F9FC;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    text-transform:uppercase;
+    font-size: 14px;
+    line-height: 27px;
+
+}
+span{
+    text-transform: lowercase;
 }
