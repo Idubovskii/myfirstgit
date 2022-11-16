@@ -1,3 +1,144 @@
-body{
-    background-color: violet;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1236px;
+    margin: 0 auto;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.header{
+    height: 90px;
+    margin-top: 30px;
+}
+.logo{
+    display: inline-block;
+
+}
+.logoimg{
+    margin-bottom: -7px;
+}
+.menu{
+    display: inline-block;
+    margin-left: 177px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color:#030D15;
+}
+
+li{
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.down{
+    border: solid #030D15;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.contacts{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    margin-right: 157px;
+}
+.icons{
+    display: inline-block;
+}
+.icon1{
+    margin-right: 30px;
+}
+.icon2{
+    margin-right: 30px;
+}
+.icon3{
+    margin-bottom: -7px;
+}
+.main{
+    height: 811px;
+}
+.maincontent{
+    width: 713px;
+    height: 426px;
+    margin-top: 75px;
+}
+.about{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C72535;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.bigtext{
+    font-size: 61px;
+    line-height: 80px;
+    color: #030D15;
+    font-weight: 400;
+}
+.bluetext{
+    font-weight: 600;
+    color: #247CC0;
+    background-color: rgb(237, 246, 248);
+}
+.textnextline{
+    display: block;
+}
+.bottomtext{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+}
+button{
+    width: 151px;
+    height: 58px;
+    background-color: #247CC0;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 36px;
+}
+.prise{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+}
+.oldprise{
+    display: inline-block;
+    margin-left: 18px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.5;
+    text-decoration-line: line-through;
+}
+.bigpic{
+    float: right;
+    margin-top: -480px;
+}
+.footer{
+    height: 237px;
+    margin-top: 220px;
+}
+.grouppic{
+    display: block;
+    margin: 0 auto;
 }
